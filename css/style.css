@@ -1,0 +1,153 @@
+body {
+    background-color: #d8d8d8;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #007ACC;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    height: 100px;
+}
+
+.layout {
+    background-color:  #ffffff;
+    width: auto;
+    height: auto;
+    margin: 10px;
+    align-items: center;
+    text-align: center;
+    padding: 10px;
+  }
+
+  .layout-2 {
+    display: grid;
+    grid-template-rows: auto 1fr;
+    align-items: start;
+    height: auto;
+    padding: 0px;
+    margin: 30px;
+  }
+ 
+  .calculator-header { 
+    display: flex;
+    flex-direction: column;
+    padding: 0px;
+    margin-top: 10;
+ }
+ .calculator {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 10px;
+    padding: 10px;
+    border: 2px solid #007ACC;
+    margin: 0;
+ }
+
+ .calculator-text {
+    text-align: left;
+    margin-top: 10px;
+ }
+
+  .header-background {
+    background-color: #007ACC;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0px;
+    padding: 0px;
+    height: 80px;
+}
+
+.tombol {
+    display: flex;
+    justify-content: end;
+    width: 80%;
+    height: 3em;
+}
+
+footer {
+    background-color: #007ACC;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    height: 50px;
+}
+
+/* input field */
+
+input[type="number"] {
+    width: 80%;
+    height: 2em;
+}
+
+/* end input field */
+
+/* Button */
+button {
+    padding: 10px;
+    margin: 5px;
+    border: none;
+    cursor: pointer;    
+    transition: background-color 0.3s ease, transform 0.2s ease;
+}
+button:hover {
+    color: #000000;
+}
+
+button:active {
+    transform: scale(0.95);
+}
+
+.button-hitung {
+    background-color: #007ACC;
+    border-radius: 5px;
+    color: #fff;
+}
+
+.button-reset {
+    background-color: #ff0000;
+    border-radius: 5px;
+    color: #fff;
+}
+/* end Button */
+
+/* text */
+h1{
+    color: #ffffff;
+    margin: 1.2;
+}
+
+h3 {
+    color: #000000;
+    line-height: 1.2;
+}
+
+h2 {
+ color: #353535;
+ margin: 0px;
+}
+
+p {
+    line-height: 1.2;
+}
+
+br {
+    margin-bottom: 0.5;
+}
+
+strong {
+    line-height: 1.2;
+}
+
+small {
+    color: #ffffff;
+}
+/* end text */

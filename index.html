@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap">
+    <title>Kalkulator Matematik Persegi</title>
+</head>
+<body>
+    <header>
+        <h1>Kalkulator Matematik Persegi</h1>
+    </header>
+    <section class="layout">
+            . <text-welcome>
+                <h2>Welcome</h2>
+                <p>Selamat datang di kalukulator matematik persegi. website untuk menghitung luas dan keliling persegi</p>
+                <br>
+            </text-welcome>
+            <div class="layout-2">
+                <div class="calculator-header">
+                    <h2><span class="header-background">Luas Persegi</span></h2>
+                </div>
+                <div class="calculator">
+                    <div class="image">
+                        <img src="asset/img/Screenshot 2023-09-13 133025.png" alt="persegi">
+                    </div>
+                    <div class="calculator-text">
+                        <P>Rumus luas persegi yaitu :</P>
+                        <strong>L = S x S</strong>
+                        <br>
+                        <p>Dimana :</p>
+                        <strong>L = Luas</strong>
+                        <br>
+                        <strong>S = Sisi</strong>
+
+                        <h3>Hitung Luas Persegi</h3>
+                        <form id="myForm">
+                            <!-- <label for="angka"><strong>Hitung Luas Persegi : </strong></label> -->
+                            <input type="number" placeholder="Masukkan sisi persegi" id="angka" min="0" name="angka" required>
+                            <br>
+                            <div class="tombol">
+                                <button class="button-hitung" type="button" id="hitungButton">Hitung</button>
+                                <button class="button-reset" type="reset">Reset</button>
+                            </div>
+                        </form>
+                        <p><strong><span>Hasil :</span></strong></p>
+                        <p><strong><span id="sisi"></span></strong></p>
+                        <p><strong><span id="hasil"></span></strong></p>
+                    </div>
+                </div>
+                <br>
+                <div class="calculator-header">
+                    <h2><span class="header-background">Keliling Persegi</span></h2>
+                </div>
+                <div class="calculator">
+                    <div class="image">
+                        <img src="asset/img/Screenshot 2023-09-13 133025.png" alt="persegi">
+                    </div>
+                    <div class="calculator-text">
+                        <P>Rumus keliling persegi yaitu :</P>
+                        <p><strong>K = S + S + S + S </strong> atau <strong>K = 4 x S</strong></p>
+                        <br>
+                        <p>Dimana :</p>
+                        <strong>K = Keliling</strong>
+                        <br>
+                        <strong>S = Sisi</strong>
+
+                        <h3>Hitung Keliling Persegi</h3>
+                        <form id="myForm">
+                            <input type="number" placeholder="Masukkan sisi persegi" id="angkaKeliling" min="0" name="angkaKeliling" required>
+                            <br>
+                            <div class="tombol">
+                                <button class="button-hitung" type="button" id="hitungKelilingButton">Hitung</button>
+                                <button class="button-reset" type="reset">Reset</button>
+                            </div>
+                        </form>
+                        <p><strong><span>Hasil :</span></strong></p>
+                        <p><strong><span id="sisiKeliling"></span></strong></p>
+                        <p><strong><span id="hasilKeliling"></span></strong></p>
+                    </div>
+                </div>
+            </div>
+    </section>
+    <footer>
+        <small>dibuat oleh Arya Putra Kusuma. aryakusuma0703@gmail.com</small>
+    </footer>
+    <script src="js/script.js"></script>
+</body>
+</html>
